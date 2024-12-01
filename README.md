@@ -43,10 +43,15 @@
 
 Шаг 3: Переходи в **services/Roblox/Roblox.Website**, и переменуй файл **appsettings.example.json** на **appsettings.json**, дальше зайди туда, и найди ```"Postgres": "Host=127.0.0.1; Database=my_db_name; Password=postgres; Username=postgres; Maximum Pool Size=20"```,
 и в **my_db_name** поставь имя своей базы данных.
+
 Найди строку **"OwnerUserId": "12",** и замени 12 на **1**
+
 Создай папку **storage** в **services/api** а в storage создай ещё одну **asset**
+
 ещё создай папки в **services/api/public/images**, это **thumbnails** и **groups**
+
 **Если они уже есть, то тебе повезло, и я их сам тебе создал)**
+
 **И НЕ ЗАБУДЬ!!!** замени все пути ```/home/my_username/source-code/services/api/storage/``` на свои.
 
 
