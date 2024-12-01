@@ -20,6 +20,22 @@
 - Go/GoLang (версии 1.18+)
 - .NET/dotnet ( рекомендуется 6 версия )
 
+# Необходимые установки!
+
+Что бы установить Redis-server надо запустить Unbutu, вас попросят создать имя и пароль, пароль не показывает при вводе и надо его вводить на память.
+
+потом пишем туда команды ```sudo apt update``` потом ```sudo apt install redis```, для проверки напишите ```redis-server```
+
+2 Шаг: вот ссылки на необходимые программы
+
+node.js: ```https://nodejs.org/dist/v18.16.1/node-v18.16.1-x64.msi```
+
+postgreSQL: ```https://sbp.enterprisedb.com/getfile.jsp?fileid=1258627```
+
+Dotnet 6: ```https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.412-windows-x64-installer```
+
+Go lang: ```https://go.dev/dl/go1.20.6.windows-amd64.msi```
+
 # Создания, и Настройка Сайта, базы данных!
 
   1 шаг: Создай базу данных в PostgreSQL (pgAdmin4), это для создания аккаунта, и фукционала сайта. Если вы создали, **ЗАПОМНИТЕ ПАРОЛЬ** и в **services/api** создайте файл, **config.json** и вставте туда этот текст:
