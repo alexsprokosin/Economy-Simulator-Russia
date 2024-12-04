@@ -158,6 +158,8 @@ Go lang: ```https://go.dev/dl/go1.20.6.windows-amd64.msi```
 Скриншоты как это должно выглядить:
 
 ![{557BC8F3-3966-47AE-AC5B-1003C927583D}](https://github.com/user-attachments/assets/6a153d02-1c67-45c4-ab1a-86c36118acbe)
+![{F14931E7-C543-4B48-986E-74AA46C83ABB}](https://github.com/user-attachments/assets/1532360b-46d7-4b09-9b61-95a452fc543d)
+
 
 
 # Если есть ошибки((
