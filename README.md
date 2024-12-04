@@ -78,6 +78,40 @@ Go lang: ```https://go.dev/dl/go1.20.6.windows-amd64.msi```
 
  Шаг 6: надо запустить сам сайт где находится вся основа ревивала, зайди в папку **services/2016-roblox-main/docs/** и прочитай **get-started.md** это гайд по начального использования.
 
+создай файл **config.json** и туда напиши вот это:
+
+```
+{
+  "serverRuntimeConfig": {
+    "backend": {"csrfKey":"g0qiiDZw7jM2l54+7qsuRaymx6nBGdCKT9Kc0bqJB3aZ26rSsPMXfg8uWfUBtTqWenDVy+AQS1jkdrgvUwVSsw=="}
+  },
+  "publicRuntimeConfig": {
+    "backend": {
+      "proxyEnabled": true,
+      "flags": {
+        "myAccountPage2016Enabled": true,
+        "catalogGenreFilterSupported": true,
+        "catalogPageLimit": 28,
+        "catalogSaleCountVisibleFromDetailsEndpoint": true,
+        "commentsEndpointHasAreCommentsDisabledProp": true,
+        "catalogDetailsPageResellerLimit": 10,
+        "avatarPageInventoryLimit": 10,
+        "friendsPageLimit": 25,
+        "settingsPageThemeSelectorEnabled": true,
+        "tradeWindowInventoryCollectibleLimit": 10,
+        "moneyPagePromotionTabVisible": true,
+        "gameGenreFilterSupported": true,
+        "avatarPageOutfitCreatedAtAvailable": true,
+        "catalogDetailsPageOwnersTabEnabled": true,
+        "launchUsingEsURI": true
+      },
+      "baseUrl": "https://your.domain/",
+      "apiFormat": "https://your.domain/apisite/{0}{1}"
+    }
+  }
+}
+```
+
  Если прочитал, то начнём дальше! открой комадную строку, ну думаю ты уже знаешь как, и напиши туда это: ```npm run build``` а потом ```npm run start``` 
 
 дальше надо запустить сайт, и зайти и создать аккаунт в http://localhost:5000/auth/application, Что нужно для создания аккаунта?
